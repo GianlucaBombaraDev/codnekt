@@ -1,12 +1,30 @@
 {
   "name": "scripts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Codnekt node js script collection",
+  "author": "GianlucaBombaraDev <gianlucabombaradevelopment@gmail.com>",
+  "homepage": "https://github.com/GianlucaBombaraDev/codnekt#readme",
+  "private": true,
+  "main": "./dist/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "generate:files": "node ./dist/src/generate-random.files.js",
+    "search:connections": "node ./dist/src/search-tree-files-connection.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GianlucaBombaraDev/codnekt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GianlucaBombaraDev/codnekt/issues"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "acorn": "^8.11.3",
+    "acorn-walk": "^8.3.2"
+  }
 }
