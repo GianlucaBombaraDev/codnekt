@@ -1,5 +1,5 @@
 {
-    "conventionalCommits.scopes": ["setup"],
+    "conventionalCommits.scopes": ["setup", "scripts"],
     "search.exclude": {
         "pnpm-lock.yaml": true
     },
