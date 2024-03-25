@@ -26,5 +26,5 @@ jobs:
       working-directory: ./packages/docs
 
     - name: Build VitePress Documentation
-      run: pnpm run build
+      run: pnpm run docs:build
       working-directory: ./packages/docs
