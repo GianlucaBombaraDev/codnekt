@@ -1,4 +1,10 @@
-# CodNekt
+<p align="center">
+  <img src="./codnekt.png" alt="CodNekt" style="width:600px;padding: 10px;"/>
+</p>
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 Is an innovative library designed to help developers visualize the connections and dependencies between the files in their projects. 
 By offering a clear, interactive map of how your files are interconnected, CodNekt makes managing and optimizing your codebase easier than ever. 
